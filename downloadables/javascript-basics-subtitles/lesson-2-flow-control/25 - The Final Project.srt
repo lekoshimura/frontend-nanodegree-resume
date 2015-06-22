@@ -1,0 +1,56 @@
+0:00:05.088,0:00:07.130
+So this is your final project for the class.
+
+0:00:07.130,0:00:10.180
+And judging by the looks of it, your resume should be just about done.
+
+0:00:10.180,0:00:11.350
+Great job.
+
+0:00:11.350,0:00:13.970
+But, before we can let you off the hook,
+
+0:00:13.970,0:00:16.450
+remember that we've learned quite a bit about objects and
+
+0:00:16.450,0:00:20.280
+the way that they can encapsulate information and related functions.
+
+0:00:20.280,0:00:22.790
+This is a two-part final project.
+
+0:00:22.790,0:00:25.930
+In the first part, take the display functions that you wrote and
+
+0:00:25.930,0:00:31.780
+encapsulate them within their respective display, work and education objects.
+
+0:00:31.780,0:00:34.970
+>> The second part of this project is to make the page your own.
+
+0:00:35.970,0:00:39.950
+You can add whatever you want to show how truly awesome you are.
+
+0:00:39.950,0:00:42.900
+In the Instructor's Notes, we've added links to a couple of
+
+0:00:42.900,0:00:47.120
+cool JavaScript libraries to do interactive graphics and charts.
+
+0:00:47.120,0:00:48.040
+>> Right.
+
+0:00:48.040,0:00:51.140
+There are thousands of awesome JavaScript libraries out there, and
+
+0:00:51.140,0:00:53.700
+most of them are really simple to include in your project.
+
+0:00:53.700,0:00:54.633
+Go the extra mile, and
+
+0:00:54.633,0:00:57.690
+make your project really stand out by taking advantage of any one of them.
+
+0:00:57.690,0:00:58.327
+Good luck.

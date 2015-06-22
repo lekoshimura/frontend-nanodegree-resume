@@ -1,0 +1,35 @@
+0:00:00.190,0:00:00.760
+Alright.
+
+0:00:00.760,0:00:03.500
+It took a little bit of time, but this is what I came up with.
+
+0:00:03.500,0:00:06.620
+This is the same code that we had before and really the only new
+
+0:00:06.620,0:00:11.410
+parts here are iterating through the dates and the descriptions for each job.
+
+0:00:11.410,0:00:13.820
+Here, I'm doing the same thing we did before.
+
+0:00:13.820,0:00:17.020
+I'm replacing some data from the HTML work
+
+0:00:17.020,0:00:20.700
+dates string with the dates from my work object and
+
+0:00:20.700,0:00:25.110
+then I'm appending the formatted dates to the last element of class work entry.
+
+0:00:25.110,0:00:26.550
+Same thing with description.
+
+0:00:26.550,0:00:30.550
+I'm replacing the placeholder data with work.jobs(job).description, and
+
+0:00:30.550,0:00:35.610
+then appending the formatted version to the last element of class work-entry.
+
+0:00:35.610,0:00:36.829
+And this is what we see on the page.

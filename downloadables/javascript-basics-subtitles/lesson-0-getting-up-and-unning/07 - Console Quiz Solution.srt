@@ -1,0 +1,8 @@
+0:00:00.190,0:00:03.700
+And when we hit Enter, we see, hello, world, and undefined below it.
+
+0:00:03.700,0:00:07.805
+>> Console.log is the basic print command for JavaScript.
+
+0:00:07.805,0:00:11.010
+Much like Python's print command, it's useful for debugging

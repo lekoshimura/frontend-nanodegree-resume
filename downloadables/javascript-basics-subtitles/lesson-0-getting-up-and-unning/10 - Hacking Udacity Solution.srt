@@ -1,0 +1,41 @@
+0:00:00.440,0:00:02.990
+Starting with this weird selector, right here,
+
+0:00:02.990,0:00:07.300
+with dollar sign open parenthesis, quotes, quotes, close parenthesis.
+
+0:00:07.300,0:00:09.990
+This is an indication that you're using jQuery.
+
+0:00:09.990,0:00:13.140
+The dollar sign parenthesis quotes syntax is only used for
+
+0:00:13.140,0:00:16.180
+jQuery, and it grabs an element on the page, which in this case,
+
+0:00:16.180,0:00:21.090
+is the class identified by this .super-header-wrapper.
+
+0:00:21.090,0:00:26.090
+We run the .html method on it, which in this case is going to replace the HTML
+
+0:00:26.090,0:00:32.100
+of everything of the class super-header-wrapper with the HTML we see right here.
+
+0:00:32.100,0:00:35.600
+In this case, this HTML is going to embed a picture.
+
+0:00:35.600,0:00:39.210
+So, when I press Enter, we can see that we've now changed the Udacity homepage
+
+0:00:39.210,0:00:43.750
+to this awesome picture of the Android teaching on the Udacity platform.
+
+0:00:43.750,0:00:47.320
+>> That is an awesome picture and just to be clear, you only made the change for
+
+0:00:47.320,0:00:50.740
+this local copy of the page, not the actual website.
+
+0:00:50.740,0:00:56.880
+So if you refresh the page, you'll see that it goes back to normal

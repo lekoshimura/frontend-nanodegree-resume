@@ -1,0 +1,26 @@
+0:00:00.410,0:00:03.469
+Okay. So I've created my display work function.
+
+0:00:03.469,0:00:07.200
+And inside of it, I've filled in all the code that I used to display my work.
+
+0:00:07.200,0:00:08.240
+When I go back the page and
+
+0:00:08.240,0:00:12.140
+hit refresh, we can see that my work section actually has disappeared.
+
+0:00:12.140,0:00:14.940
+I can see the other sections because, okay, well because James and
+
+0:00:14.940,0:00:16.550
+I are cheating and we already have the answers in.
+
+0:00:16.550,0:00:20.760
+But, the work section's gone, and that's because we never invoked our code.
+
+0:00:20.760,0:00:23.630
+We don't see anything happen because we never invoked our code.
+
+0:00:23.630,0:00:25.199
+Let's investigate how to invoke functions.

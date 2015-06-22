@@ -1,0 +1,29 @@
+0:00:00.008,0:00:03.610
+>> Hey James, you know what I love doing?
+
+0:00:03.610,0:00:04.870
+>> Talking about baseball?
+
+0:00:04.870,0:00:06.480
+>> Okay. Yeah, besides that.
+
+0:00:06.480,0:00:08.740
+I love using the console to play with websites.
+
+0:00:10.020,0:00:10.630
+>> That is fun. >> Okay.
+
+0:00:11.990,0:00:14.090
+You know, what? Actually, the sounds like a good idea.
+
+0:00:14.090,0:00:17.660
+In the instructor notes, you'll find a line of code I want you to copy.
+
+0:00:17.660,0:00:20.480
+Open up another tab and go to Udacity.com.
+
+0:00:20.480,0:00:23.600
+Open up the Console, paste in that line of code and press Enter.
+
+0:00:23.600,0:00:24.110
+What do you see?

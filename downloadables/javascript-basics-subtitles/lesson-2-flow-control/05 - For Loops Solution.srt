@@ -1,0 +1,11 @@
+0:00:00.240,0:00:03.340
+So I think we'll see zero to nine appear.
+
+0:00:03.340,0:00:07.800
+Wait a second, this is actually i is less than nine, so
+
+0:00:07.800,0:00:12.210
+it's going to exit the loop when i is equal to nine.
+
+0:00:12.210,0:00:16.730
+So it actually will show zero through eight and there it is.

@@ -1,0 +1,59 @@
+0:00:05.691,0:00:08.590
+So what else do we to tell the students, James?
+
+0:00:08.590,0:00:10.460
+>> Just how we'll be working in this course.
+
+0:00:10.460,0:00:13.750
+We'll be using two main tools, a text editor to code and
+
+0:00:13.750,0:00:16.210
+a browser to inspect our work.
+
+0:00:16.210,0:00:19.930
+All modern browsers include a powerful set of tools.
+
+0:00:19.930,0:00:21.920
+Commonly referred to as Developer Tools.
+
+0:00:25.076,0:00:29.610
+Which lets Developers inspect the way a website loads and runs.
+
+0:00:29.610,0:00:32.590
+Dev Tools also includes a console that allows you to
+
+0:00:32.590,0:00:35.370
+issue JavaScript commands against your website.
+
+0:00:35.370,0:00:36.160
+Let's give it a try.
+
+0:00:36.160,0:00:37.200
+>> Cool.
+
+0:00:37.200,0:00:39.300
+What do you have in mind?
+
+0:00:39.300,0:00:42.490
+>> Let's open up developer tools right now and run a command.
+
+0:00:42.490,0:00:44.851
+Let's say console.log();.
+
+0:00:44.851,0:00:45.850
+>> All right.
+
+0:00:45.850,0:00:47.990
+This sounds like a good time for a quiz.
+
+0:00:47.990,0:00:50.720
+Let's find out what console.log(); does.
+
+0:00:50.720,0:00:56.620
+I want you to pull up the console and type console.log("Hello world!");.
+
+0:00:56.620,0:00:58.440
+What happened when you ran the command?
+
+0:00:58.440,0:00:59.060
+Type it in here.

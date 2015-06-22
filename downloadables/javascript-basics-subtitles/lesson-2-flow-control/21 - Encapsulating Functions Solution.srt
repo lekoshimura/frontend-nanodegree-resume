@@ -1,0 +1,47 @@
+0:00:00.400,0:00:02.719
+All right, so, this is what I came up with.
+
+0:00:02.719,0:00:07.150
+First and foremost, we need to set this display method on the projects object.
+
+0:00:07.150,0:00:11.030
+So, using dot notation, I simply set the property display on
+
+0:00:11.030,0:00:13.990
+the project's object and set it equal to a function.
+
+0:00:13.990,0:00:19.220
+This function is using a for in loop, for projects in projects.projects.
+
+0:00:19.220,0:00:20.640
+Inside the projects object,
+
+0:00:20.640,0:00:24.180
+we have an array of projects, also called, well, projects.
+
+0:00:24.180,0:00:25.020
+Like we said in the hint,
+
+0:00:25.020,0:00:29.020
+we need to start with HTMLprojectStart to create a new project entry.
+
+0:00:29.020,0:00:31.940
+Then you'll see a set of steps where we're appending the title.
+
+0:00:31.940,0:00:37.282
+The dates, the description, and images to this project entry last element.
+
+0:00:37.282,0:00:42.220
+Remember, HTMLprojectStart is creating an element with the class project entry,
+
+0:00:42.220,0:00:45.420
+and we want to grab the last one every time we work through this list.
+
+0:00:45.420,0:00:48.120
+Following the same strategies we've been using in this class,
+
+0:00:48.120,0:00:52.210
+we'll be appending each of these elements to project-entry:last, and
+
+0:00:52.210,0:00:55.090
+when we're done, we should see a nice beautiful project section.

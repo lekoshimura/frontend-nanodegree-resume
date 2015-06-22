@@ -1,0 +1,218 @@
+0:00:00.410,0:00:02.140
+Let me show you something cool.
+
+0:00:02.140,0:00:05.800
+In Chrome tab tools we can easily open up the source code for a website.
+
+0:00:05.800,0:00:09.675
+All we need to do is open up DevTools which I will be doing by Cmd+Option+I.
+
+0:00:11.120,0:00:12.490
+And then we'll go to the sources pane.
+
+0:00:14.910,0:00:16.059
+Here, in sources,
+
+0:00:16.059,0:00:20.010
+we can see all of the source code that led to the website we see behind us.
+
+0:00:20.010,0:00:24.230
+So Index.html should look pretty familiar and we can open up javascripts and
+
+0:00:24.230,0:00:28.550
+we can see helper.js, jquery and resumebuilder.js.
+
+0:00:28.550,0:00:31.020
+Let's open up helper.js.
+
+0:00:31.020,0:00:31.840
+Over here we can see it.
+
+0:00:31.840,0:00:36.610
+Lets give ourselves a little more room, and I'm going to scroll down.
+
+0:00:36.610,0:00:38.840
+Inside helperjs, we've got all of the strings,
+
+0:00:38.840,0:00:41.840
+containing the html we want to add to the page.
+
+0:00:41.840,0:00:43.680
+And we can find some functions down at the bottom.
+
+0:00:44.910,0:00:48.010
+This job script down here is actually creating the map that we see on the page,
+
+0:00:48.010,0:00:49.920
+but there'll be more on that in a little bit.
+
+0:00:49.920,0:00:52.640
+For right now, let's pay attention to this line right here.
+
+0:00:53.990,0:00:56.460
+Inside this function called locationFinder,
+
+0:00:56.460,0:00:59.029
+we see this statement that says return locations.
+
+0:01:00.060,0:01:01.830
+We've seen this return keyword a few times so
+
+0:01:01.830,0:01:04.459
+far, but we haven't really delved into it's purpose yet.
+
+0:01:05.620,0:01:06.900
+It's called a return statement, and
+
+0:01:06.900,0:01:10.230
+its purpose is to make the function give back a value.
+
+0:01:10.230,0:01:11.880
+>> I think I know what you're getting at.
+
+0:01:11.880,0:01:13.660
+Won't you explain it a bit more.
+
+0:01:13.660,0:01:15.640
+>> Well, remember console.log?
+
+0:01:15.640,0:01:19.080
+It doesn't return anything, which means if we were to create a new variable,
+
+0:01:19.080,0:01:20.540
+like this.
+
+0:01:20.540,0:01:25.740
+Var hello equals console dot log hello will get undefined when we try to run it.
+
+0:01:25.740,0:01:28.320
+We wee that console dot log worked and
+
+0:01:28.320,0:01:32.190
+printed hello, but then we see this undefined below it.
+
+0:01:32.190,0:01:35.270
+If we try to examine the variable later by just typing out hello and
+
+0:01:35.270,0:01:38.340
+pressing enter, we see undefined.
+
+0:01:38.340,0:01:40.900
+That's because console dot log didn't return anything,
+
+0:01:40.900,0:01:42.019
+it didn't give anything back.
+
+0:01:43.070,0:01:46.230
+However, most functions actually do return values.
+
+0:01:46.230,0:01:48.340
+>> Like a lot of string methods?
+
+0:01:48.340,0:01:50.770
+>> Yeah, let's look at string dot split.
+
+0:01:50.770,0:01:52.790
+First we'll create a string like this one.
+
+0:01:52.790,0:01:54.660
+I've created a string called myString and
+
+0:01:54.660,0:01:56.720
+set it equal to, This is my favorite string!
+
+0:01:56.720,0:02:01.080
+Then we are going to go ahead and separate the string on spaces.
+
+0:02:01.080,0:02:03.800
+Meaning that we'll get each word by itself.
+
+0:02:03.800,0:02:05.290
+Split works like so.
+
+0:02:05.290,0:02:06.690
+It's going to act on the string here.
+
+0:02:06.690,0:02:09.204
+And it's going to separate it based on the parameter here.
+
+0:02:09.204,0:02:12.009
+This parameter is just a single space so
+
+0:02:12.009,0:02:16.420
+we should get an array of the words from myString.
+
+0:02:16.420,0:02:19.810
+Let's go ahead and save it to the variable myArray and press enter.
+
+0:02:19.810,0:02:24.460
+Okay, and when we try to access myArray, we see and array of strings.
+
+0:02:24.460,0:02:26.440
+This, is, my, favorite, string.
+
+0:02:26.440,0:02:28.160
+Each of the words from myString before.
+
+0:02:29.180,0:02:30.360
+In other words,
+
+0:02:30.360,0:02:35.010
+split returned an array of strings which is now equal to myArray.
+
+0:02:35.010,0:02:35.860
+>> Oh, I see!
+
+0:02:35.860,0:02:38.610
+When we write functions that we want to turn into a value,
+
+0:02:38.610,0:02:40.670
+they must give us back a value.
+
+0:02:40.670,0:02:43.370
+Looking at this function as a whole.
+
+0:02:43.370,0:02:45.580
+The parameter is the input.
+
+0:02:45.580,0:02:50.770
+The function does something using that parameter on the actual string and
+
+0:02:50.770,0:02:52.340
+then it gives us some sort of value.
+
+0:02:53.800,0:02:57.210
+>> Let's think about the resumes j's on data and all the location in it.
+
+0:02:57.210,0:03:02.520
+For this quiz I want you to write a function called locationizer.
+
+0:03:02.520,0:03:04.830
+It's going to take in the work object.
+
+0:03:04.830,0:03:10.500
+Locationizer should return an array of the locations in your work object.
+
+0:03:10.500,0:03:13.470
+Remember work contains all the jobs that you've had in the past and
+
+0:03:13.470,0:03:15.810
+each one of which should have a location associated with it.
+
+0:03:16.820,0:03:19.860
+We want you to return an array of those locations.
+
+0:03:19.860,0:03:23.310
+You might find it's helpful to use the array.push method which
+
+0:03:23.310,0:03:26.120
+is going to add values to the end of the array.
+
+0:03:26.120,0:03:26.920
+When you get to the quiz,
+
+0:03:26.920,0:03:29.850
+you'll see a sample json that your code will iterate through.
+
+0:03:29.850,0:03:30.350
+Good luck.

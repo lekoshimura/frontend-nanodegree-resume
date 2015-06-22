@@ -1,0 +1,188 @@
+0:00:00.749,0:00:04.429
+One thing I've noticed about this code is, it's a bit spaghettified.
+
+0:00:04.429,0:00:05.107
+>> What?
+
+0:00:05.107,0:00:07.355
+You mean like it's falling into a black hole?
+
+0:00:07.355,0:00:08.724
+>> What?
+
+0:00:08.724,0:00:10.004
+>> Never mind.
+
+0:00:10.004,0:00:11.483
+It's an astronomy thing.
+
+0:00:11.483,0:00:15.740
+>> It's spaghettified as in it's a mess of IF statements and loops.
+
+0:00:15.740,0:00:20.160
+Let's break this down into some more manageable chunks by using some functions.
+
+0:00:21.990,0:00:23.910
+>> Functions are awesome.
+
+0:00:23.910,0:00:26.920
+Hey, have you read the book East of Eden by John Steinbeck?
+
+0:00:26.920,0:00:29.070
+>> This isn't a literature class.
+
+0:00:29.070,0:00:31.160
+>> I know, but stick with me.
+
+0:00:31.160,0:00:31.790
+This is relevant.
+
+0:00:31.790,0:00:36.230
+I was reading it the other day, and there was a passage that struck me.
+
+0:00:36.230,0:00:38.630
+The story takes place around the turn of the century, and
+
+0:00:38.630,0:00:41.640
+one of the characters named Adam gets a car.
+
+0:00:41.640,0:00:44.130
+This was a big deal because cars were really new.
+
+0:00:44.130,0:00:47.030
+Back then, you couldn't just stick a key in the ignition and get rolling.
+
+0:00:47.030,0:00:50.300
+There was a long intricate process of priming the ignition,
+
+0:00:50.300,0:00:51.990
+getting oxygen into the engine, et cetera.
+
+0:00:51.990,0:00:54.970
+The boys in the story had a mantra that they kept repeating to
+
+0:00:54.970,0:00:57.230
+help themselves remember the process.
+
+0:00:57.230,0:00:59.340
+>> But all of this is automated now, right?
+
+0:00:59.340,0:01:00.940
+Turn the key, start the car.
+
+0:01:00.940,0:01:01.720
+>> Right.
+
+0:01:01.720,0:01:05.080
+You know, in the book, the characters had to pass instructions about the way
+
+0:01:05.080,0:01:07.410
+engines work in order to start the car.
+
+0:01:07.410,0:01:11.550
+Today, all of those instructions are bundled in the act of turning the key.
+
+0:01:11.550,0:01:13.040
+Functions do basically the same thing.
+
+0:01:13.040,0:01:15.080
+They bundle instructions together.
+
+0:01:15.080,0:01:17.440
+>> So if I had a start car function,
+
+0:01:17.440,0:01:20.350
+it would abstract away all of the intricacies of starting a car.
+
+0:01:20.350,0:01:21.550
+>> Yeah, exactly.
+
+0:01:21.550,0:01:24.300
+>> Okay, that was a decent example.
+
+0:01:24.300,0:01:28.850
+Functions in JavaScript can be defined with two different syntaxes.
+
+0:01:28.850,0:01:32.330
+The first should look pretty familiar if you've been paying attention.
+
+0:01:32.330,0:01:35.930
+We start with var followed by the function name,
+
+0:01:35.930,0:01:40.880
+in this case myFunc equals, and then the word keyword function,
+
+0:01:40.880,0:01:44.970
+an optional parameter list, and then the body of the function.
+
+0:01:44.970,0:01:48.730
+This keyword function tells the JavaScript engine that we're making a function.
+
+0:01:48.730,0:01:50.250
+>> And this is the second syntax.
+
+0:01:50.250,0:01:53.350
+In this case, we don't actually have to start with var.
+
+0:01:53.350,0:01:56.760
+We just start with this keyword function and then we give our function a name,
+
+0:01:56.760,0:01:58.648
+which, in this case, is still myFunc.
+
+0:01:58.648,0:02:02.910
+Then after myFunc, we have optional parameters inside parentheses and
+
+0:02:02.910,0:02:06.000
+then the body of the code goes between the two curly braces,
+
+0:02:06.000,0:02:08.759
+just the same way we do with if statements and loops.
+
+0:02:08.759,0:02:12.060
+These two syntaxes are pretty much equivalent.
+
+0:02:12.060,0:02:15.460
+There are subtle differences in the way the JavaScript engine interprets these
+
+0:02:15.460,0:02:16.800
+two different functions.
+
+0:02:16.800,0:02:18.860
+However, they go beyond the scope of this course.
+
+0:02:18.860,0:02:21.700
+So check the instructor's notes if you're interested in learning more.
+
+0:02:21.700,0:02:24.610
+>> Seems to me we should bundle the code we just used to
+
+0:02:24.610,0:02:28.240
+populate the work experience inside the display work function.
+
+0:02:28.240,0:02:30.130
+>> Yeah. Let's do that and see what happens.
+
+0:02:30.130,0:02:31.440
+Here's a quiz for you.
+
+0:02:31.440,0:02:34.950
+We want you to move all the code you just wrote to display the work
+
+0:02:34.950,0:02:37.360
+into a function called display work.
+
+0:02:37.360,0:02:40.580
+Make sure you put all of your code between the curly braces, but
+
+0:02:40.580,0:02:44.290
+don't do anything else after you've moved your code into display work.
+
+0:02:44.290,0:02:46.230
+What happens when you refresh the page?
+
+0:02:46.230,0:02:47.890
+Pick one of these two answers.
+
+0:02:47.890,0:02:51.380
+Do you see the same thing or does nothing appear at all in the work section?

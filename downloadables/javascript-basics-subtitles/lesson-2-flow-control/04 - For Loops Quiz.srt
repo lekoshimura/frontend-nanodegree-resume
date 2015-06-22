@@ -1,0 +1,65 @@
+0:00:00.700,0:00:03.450
+For loops are similar to while loops but check for
+
+0:00:03.450,0:00:06.050
+conditions in a slightly different way.
+
+0:00:06.050,0:00:08.310
+We have an initialization value,
+
+0:00:08.310,0:00:12.620
+a condition that gets checked on every iteration of the loop, and
+
+0:00:12.620,0:00:17.980
+a mutator that increments or decrements the initialization value.
+
+0:00:17.980,0:00:22.920
+>> So for example, in this for loop, we initialize an incrementor i
+
+0:00:22.920,0:00:26.530
+by using the same var syntax we've been using all course.
+
+0:00:26.530,0:00:31.310
+Then we set the condition i less than nine using an operator that we saw before,
+
+0:00:31.310,0:00:35.720
+and then we increment i by one by adding i plus plus.
+
+0:00:35.720,0:00:39.010
+For every trip through the loop, we're going to console.log(i).
+
+0:00:39.010,0:00:40.460
+You know what?
+
+0:00:40.460,0:00:41.980
+Before I tell you what's going to happen,
+
+0:00:41.980,0:00:43.600
+I think this is something you can figure out on your own.
+
+0:00:44.840,0:00:46.330
+Make a prediction.
+
+0:00:46.330,0:00:47.640
+What will the result of this code be?
+
+0:00:47.640,0:00:49.440
+Type your answer in this box.
+
+0:00:49.440,0:00:54.130
+Once you've made your prediction, type this code into your browser's console and
+
+0:00:54.130,0:00:56.400
+press Enter to watch what happens.
+
+0:00:56.400,0:00:57.270
+Is it what you expected?
+
+0:00:58.550,0:00:59.740
+When you try to type this for
+
+0:00:59.740,0:01:03.580
+loop into your browser, don't worry about putting everything on separate lines.
+
+0:01:03.580,0:01:05.410
+You can type all this out on one line.

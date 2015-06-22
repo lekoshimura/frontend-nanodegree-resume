@@ -1,0 +1,224 @@
+0:00:05.363,0:00:08.330
+>> Lets start with index.html.
+
+0:00:08.330,0:00:10.760
+Don't worry HTML is pretty simple.
+
+0:00:10.760,0:00:13.868
+It describes the content and lay out of elements on a web page.
+
+0:00:15.250,0:00:19.250
+We'll be comparing what we see here to the website.
+
+0:00:19.250,0:00:22.980
+In this top section, we see the page's head tag defined.
+
+0:00:22.980,0:00:26.730
+We'll often find CSS in JavaScript links, like these here.
+
+0:00:28.380,0:00:32.490
+Inside the body of the text, we can see that we've got content that says,
+
+0:00:32.490,0:00:33.130
+Hello world.
+
+0:00:34.180,0:00:37.820
+And when we flip over to Chrome, there it is.
+
+0:00:39.290,0:00:41.212
+If you want to learn more about HTML,
+
+0:00:41.212,0:00:43.694
+check out the link in the instructor's notes.
+
+0:00:43.694,0:00:49.598
+Looking through the HTML for our resume, there are a few elements worth noting.
+
+0:00:49.598,0:00:53.280
+Like this one, div id equals main.
+
+0:00:53.280,0:00:56.810
+I can see that it says, Hello world here, but showed up on the website.
+
+0:00:57.820,0:01:00.340
+Div represents different elements on the page,
+
+0:01:00.340,0:01:03.860
+you can think of them as starting like empty all purpose boxes.
+
+0:01:03.860,0:01:07.890
+In this case, we've given this div a unique id of main,
+
+0:01:07.890,0:01:09.810
+which our JavaScript will be referencing later.
+
+0:01:10.860,0:01:12.840
+Do you see anything else, James?
+
+0:01:12.840,0:01:15.840
+>> It doesn't look like a resume at all right now,
+
+0:01:15.840,0:01:18.220
+but I do see some structure for one.
+
+0:01:18.220,0:01:22.530
+It looks like there are sections for education, work and projects.
+
+0:01:22.530,0:01:25.970
+What do you think about filling these in with our resume data?
+
+0:01:25.970,0:01:27.110
+>> Yeah.
+
+0:01:27.110,0:01:30.920
+You know, web developers have options for building great web pages.
+
+0:01:30.920,0:01:33.720
+And I think there are two obvious strategies.
+
+0:01:33.720,0:01:37.260
+They can either hard code the information by writing HTML that
+
+0:01:37.260,0:01:40.690
+explicitly defines the content users should see.
+
+0:01:40.690,0:01:42.530
+Or they can use an HTML template and
+
+0:01:42.530,0:01:46.340
+fill it in with data programmatically when a user requests a page.
+
+0:01:46.340,0:01:48.886
+In this case, we can see the two work experience sections.
+
+0:01:48.886,0:01:52.426
+In the hard coded version, we can see all of Phillip J.
+
+0:01:52.426,0:01:54.765
+Fry's data listed here.
+
+0:01:54.765,0:01:57.549
+While on the template side, we see the work experience section.
+
+0:01:57.549,0:01:58.940
+But right now, it's empty.
+
+0:02:00.170,0:02:03.900
+>> The hard coded route is good to start, but it isn't a solution for
+
+0:02:03.900,0:02:05.040
+the long term.
+
+0:02:05.040,0:02:07.120
+Anytime we want to make a change to the page,
+
+0:02:07.120,0:02:12.120
+we have to open up the HTML, make the changes by hand, which can be a big pain.
+
+0:02:12.120,0:02:15.960
+For the resume project, we'll be using the template strategy.
+
+0:02:15.960,0:02:17.440
+What do you think?
+
+0:02:17.440,0:02:18.700
+>> Yeah, that works for me.
+
+0:02:18.700,0:02:21.168
+besides, if we weren't then this class would be about HTML.
+
+0:02:21.168,0:02:23.890
+Which it isn't.
+
+0:02:23.890,0:02:27.670
+>> Yeah, there are other great introductions to HTML online.
+
+0:02:27.670,0:02:30.060
+See the instructor's notes for a few links.
+
+0:02:30.060,0:02:35.098
+At the top of the HTML, there's a link to jQuery.js, the jQuery library.
+
+0:02:35.098,0:02:38.320
+There's also helper.js,
+
+0:02:38.320,0:02:42.690
+which contains some simple helper JavaScript we've prepared for your project.
+
+0:02:42.690,0:02:45.300
+We'll be coming back to it in a few minutes.
+
+0:02:45.300,0:02:48.790
+>> We've got two more script tags at the bottom of the HTML.
+
+0:02:48.790,0:02:53.150
+This tag for resumeBuilder.js, tells the browser to download and
+
+0:02:53.150,0:02:55.030
+execute some JavaScript.
+
+0:02:55.030,0:02:59.760
+We'll be using this script to add HTML content to the main section of the HTML.
+
+0:02:59.760,0:03:03.430
+>> The browser will render this page just saying, Hello world.
+
+0:03:04.790,0:03:07.980
+To give you a better overview of what's going on here,
+
+0:03:07.980,0:03:11.340
+we've zoomed out the page so you can see everything all at once.
+
+0:03:11.340,0:03:16.700
+We have Hello world here, some empty resume sections and then some JavaScript.
+
+0:03:16.700,0:03:17.690
+And over on this side,
+
+0:03:17.690,0:03:21.770
+we can see a general representation of how it would look in a browser.
+
+0:03:21.770,0:03:23.823
+We're printing the Hello world and
+
+0:03:23.823,0:03:27.528
+then after the Hello world, we have all of the resume sections.
+
+0:03:27.528,0:03:31.713
+And when we hit the JavaScript section that includes resume builder down here,
+
+0:03:31.713,0:03:34.000
+the browser will run the script.
+
+0:03:34.000,0:03:38.350
+Which will change the HTML in these experience sections and
+
+0:03:38.350,0:03:40.590
+the page will now show our resume.
+
+0:03:40.590,0:03:41.780
+>> But wait.
+
+0:03:41.780,0:03:45.260
+You may ask yourself, what about all of these experience sections.
+
+0:03:45.260,0:03:46.570
+It looks like they're in the resume, but
+
+0:03:46.570,0:03:48.500
+they aren't showing up on the page right now.
+
+0:03:48.500,0:03:51.130
+That's because of these scripts at the bottom of our resume.
+
+0:03:51.130,0:03:54.070
+Using JavaScript, we're checking to see if any of
+
+0:03:54.070,0:03:56.250
+these sections contain any content.
+
+0:03:56.250,0:03:58.130
+And if not, we hide them.
+
+0:03:58.130,0:04:00.600
+We'll get a chance to break down these JavaScript sections later

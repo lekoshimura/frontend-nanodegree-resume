@@ -1,0 +1,11 @@
+0:00:00.510,0:00:03.990
+If all went well, you should see your name appear on the screen.
+
+0:00:03.990,0:00:07.240
+My name is James, so that, that's what I put in the box here.
+
+0:00:07.240,0:00:07.840
+What did you see?
+
+0:00:09.010,0:00:10.320
+And here's how the code should look.

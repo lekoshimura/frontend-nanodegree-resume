@@ -1,0 +1,179 @@
+0:00:05.670,0:00:08.600
+Hey James, wasn't it kind of annoying that you had to type out
+
+0:00:08.600,0:00:10.660
+the same if statement twice?
+
+0:00:10.660,0:00:13.810
+>> Yeah. I think I broke one of the cardinal rules of programming: don't
+
+0:00:13.810,0:00:14.645
+repeat yourself.
+
+0:00:14.645,0:00:15.180
+>> Mm-hm.
+
+0:00:15.180,0:00:16.030
+Yeah.
+
+0:00:16.030,0:00:17.100
+And with that in mind,
+
+0:00:17.100,0:00:19.009
+I think it's probably time that we should talk about loops.
+
+0:00:20.310,0:00:22.810
+>> So is that why we're looking at an animated GIF?
+
+0:00:22.810,0:00:24.470
+>> Okay. That's one reason.
+
+0:00:24.470,0:00:27.290
+The second is because that is an awesome GIF.
+
+0:00:27.290,0:00:30.510
+But really, I think the important part here is that a GIF repeats itself
+
+0:00:30.510,0:00:31.510
+automatically.
+
+0:00:31.510,0:00:34.470
+We don't have to tell a GIF to play itself again, it just does it.
+
+0:00:34.470,0:00:37.515
+And in fact, JavaScript gives us a few tools to do this as well.
+
+0:00:37.515,0:00:41.110
+And we're going to go ahead and start with a while loop.
+
+0:00:41.110,0:00:45.000
+>> A while loop lets us repeat a piece of code so
+
+0:00:45.000,0:00:47.660
+long as some condition evaluates to true.
+
+0:00:49.160,0:00:51.920
+Once it doesn't evaluate to true, we exit the while loop.
+
+0:00:53.470,0:00:56.630
+The syntax is while condition.
+
+0:00:56.630,0:00:59.970
+And then in curly braces, some sort of code here.
+
+0:00:59.970,0:01:03.480
+So for this one we have doSomething();.
+
+0:01:03.480,0:01:05.556
+>> Hey let's let's show an example.
+
+0:01:05.556,0:01:14.200
+>> Okay. While(cameron.job ==="course dev") should make courses.
+
+0:01:14.200,0:01:15.610
+>> I like that example.
+
+0:01:15.610,0:01:20.425
+Notice how this is similar to python, but it includes conditions in parentheses,
+
+0:01:20.425,0:01:24.430
+and actions and curly braces, just like with if statements.
+
+0:01:24.430,0:01:26.670
+Remember, if the condition evaluates to true,
+
+0:01:26.670,0:01:30.700
+we'll do the action, then ask ourselves again, is the condition true?
+
+0:01:30.700,0:01:32.740
+We'll continue following this loop.
+
+0:01:32.740,0:01:36.230
+Until the condition is no longer true, at which point will exit the loop.
+
+0:01:36.230,0:01:40.260
+Over here, so long as my job is course developer, I'll keep making courses.
+
+0:01:40.260,0:01:43.430
+The while loop will ask itself again, is Cameron still a course developer?
+
+0:01:43.430,0:01:45.160
+If so, make courses.
+
+0:01:45.160,0:01:45.940
+Until at some point,
+
+0:01:45.940,0:01:50.250
+when my job is no longer course developer, at which point will exit the loop.
+
+0:01:50.250,0:01:51.105
+>> How might that happen?
+
+0:01:51.105,0:01:51.860
+>> Hm.
+
+0:01:51.860,0:01:54.080
+Perhaps there's a limit on how many courses I can make.
+
+0:01:54.080,0:01:55.690
+10 courses maximum.
+
+0:01:55.690,0:01:57.190
+You know what?
+
+0:01:57.190,0:01:58.310
+Let's see what this looks like in code.
+
+0:01:59.850,0:02:00.510
+Outside of the loop,
+
+0:02:00.510,0:02:03.530
+I'll create an iterator called courses, which is going to start at 0.
+
+0:02:03.530,0:02:08.130
+This is going to keep track of how many courses I've made.
+
+0:02:08.130,0:02:09.259
+After making a course,
+
+0:02:09.259,0:02:11.960
+I'm going to add 1 to the number of courses that I've made.
+
+0:02:13.310,0:02:16.250
+Let's add an if statement to our loop that checks if the number of courses I've
+
+0:02:16.250,0:02:17.320
+made is 10.
+
+0:02:17.320,0:02:20.146
+And if so, changes my job to learning specialist.
+
+0:02:20.146,0:02:24.379
+Afterwards, the loop exits.
+
+0:02:24.379,0:02:25.084
+>> Interesting.
+
+0:02:25.084,0:02:26.830
+Let's check to see if that works.
+
+0:02:26.830,0:02:31.870
+Here's the make course function that console logs Made a course every time
+
+0:02:31.870,0:02:32.419
+it's run.
+
+0:02:32.419,0:02:37.910
+And lets console.log,(cameron.job) when we're finished running the loop.
+
+0:02:39.030,0:02:40.830
+So, when we run it,
+
+0:02:40.830,0:02:46.250
+we can see that it's printed made a course to the counsel log 10 times.
+
+0:02:46.250,0:02:48.400
+And then when it finished,
+
+0:02:48.400,0:02:51.310
+it printed out learning specialist, Cameron's new job.

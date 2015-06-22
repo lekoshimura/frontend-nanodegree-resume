@@ -1,0 +1,44 @@
+0:00:00.170,0:00:02.760
+>> We'll be using GitHub to download the files we need for
+
+0:00:02.760,0:00:05.880
+our resume and once we're finished to host it.
+
+0:00:05.880,0:00:07.520
+>> If you don't already have a GitHub account,
+
+0:00:07.520,0:00:09.340
+you can find the link in the instructor's notes to get one.
+
+0:00:09.340,0:00:11.830
+You'll see a few options, but don't worry,
+
+0:00:11.830,0:00:15.010
+you don't need anything fancier than a free account for this class.
+
+0:00:15.010,0:00:17.580
+This is where we can find all the files that we'll need for this project.
+
+0:00:17.580,0:00:18.900
+Let's go ahead and take a look at them.
+
+0:00:20.020,0:00:21.100
+Hey, James.
+
+0:00:21.100,0:00:23.080
+What text editor do you like using?
+
+0:00:23.080,0:00:24.000
+>> Emax.
+
+0:00:24.000,0:00:26.960
+But to keep it simple, let's say, Sublime Text.
+
+0:00:26.960,0:00:27.460
+>> Okay, cool.
+
+0:00:27.460,0:00:30.650
+In this course, we'll be using Sublime Text but
+
+0:00:30.650,0:00:32.259
+feel free to use whatever text editor you'd like.

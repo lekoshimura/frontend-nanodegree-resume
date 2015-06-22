@@ -1,0 +1,29 @@
+0:00:00.430,0:00:03.040
+Making a great first impression is important in life,
+
+0:00:03.040,0:00:06.570
+especially when you're trying to show you are the perfect candidate for the job.
+
+0:00:06.570,0:00:08.170
+>> Yeah, it really is.
+
+0:00:08.170,0:00:11.620
+Is, is that why we're in this resume.
+
+0:00:11.620,0:00:12.690
+>> Exactly.
+
+0:00:12.690,0:00:16.560
+In this course, you will take your first steps to becoming a JavaScript ninja,
+
+0:00:16.560,0:00:21.080
+by creating this beautiful interactive resume, and sharing it with the world.
+
+0:00:21.080,0:00:22.310
+>> And along the way,
+
+0:00:22.310,0:00:25.270
+you'll be using JavaScript to put it together piece by piece.
+
+0:00:25.270,0:00:26.140
+Are you ready to get started?
