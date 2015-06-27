@@ -24,6 +24,32 @@ $("#ID").append("Algum texto");
 [string].slice([posção inicial], [length]);
 //Retorna fatia de um string.
 ```
+
+```javascript
+[array].pop()
+//Retorna o último elemento do array.
+```
+
+```javascript
+[array].push()
+//Adiciona elemento ao fom do array.
+```
+
+```javascript
+var s = String.split(" ");
+//Divide String em array de dois elementos.
+```
+
+```javascript
+finalName = new String;
+var finalName = [array].join(" ");
+//concatena os elementos de [array] e atribui ao String.
+```
+
+# Javascript Não Tem Classe
+* Javascript não tem classes.
+* (mas tem objetos);
+
 # undefined, null, Nan
 
 * __undefined__: a variável não existe.

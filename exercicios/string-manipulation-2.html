@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>String Manipulation 2</title>
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css">
+</head>
+<body>
+  <h1>String Manipulation 2</h1>
+  <a href="https://www.udacity.com/course/viewer#!/c-ud804/l-1930528550/e-2325218536/m-2324418536"><i>https://www.udacity.com/course/viewer#!/c-ud804/l-1930528550/e-2325218536/m-2324418536</i></a>
+  <h2>Your Challenge</h2>
+  <p>If given a string of a two word name formatted with any mix of capitalization, can you manipulate the string to ensure the first name has a capital first letter and the last name is totally capitalized? Assume there's a space between the names. For instance, turning a string like "cAmEROn PittMAN" into "Cameron PITTMAN". Your answer should be a single string saved to the variable called finalName.</p>
+  <p>Take a look at <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">MDN's documentation on string methods</a> and click "Continue" when you're ready to give it a shot.</p>
+  <script>
+  var name = "AlbERt EINstEiN";
+  // function nameChanger(oldName) {
+  //   var finalName = oldName;
+  //   var names = oldName.split(" ");
+  //   names[1] = names[1].toUpperCase();
+  //   names[0] = names[0].slice(0,1).toUpperCase() + names[0].slice(1).toLowerCase();
+  //   finalName = names.join(" ");
+  //   return finalName;
+  // };
+
+  function nameChanger(oldName) {
+    var finalName = oldName;
+
+    // Your code goes here!
+    posEspaco = finalName.search(" ");
+    primeiroNome = finalName.substring(0, 1).toUpperCase() + finalName.substring(1, posEspaco).toLowerCase();
+    ultimoNome =  finalName.substring(posEspaco + 1, finalName.length).toUpperCase();
+    finalName = primeiroNome + " " + ultimoNome;
+
+    // Don't delete this line!
+    return finalName;
+  }
+  console.log(nameChanger(name));
+  </script>
+</body>
+</html>
